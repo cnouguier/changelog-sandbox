@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "description": "Changelog generator",
   "scripts": {
-	"release:major": "changelog -M",
-	"release:minor": "changelog -m",
-	"release:patch": "changelog -p"
+    "changelog": "auto-changelog"
   },
   "dependencies": {},
   "devDependencies": {
-    "generate-changelog": "^1.7.1"
+    "auto-changelog": "^1.10.3"
   }
 }

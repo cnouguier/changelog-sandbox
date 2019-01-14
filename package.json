@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Changelog generator",
   "scripts": {
-    "changelog": "auto-changelog --include-branch test"
+    "changelog": "auto-changelog"
   },
   "dependencies": {
     "auto-changelog": "^1.10.3"

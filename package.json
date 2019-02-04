@@ -5,8 +5,8 @@
   "scripts": {
     "changelog": "auto-changelog"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "auto-changelog": "^1.10.3"
-  }
+  },
+  "devDependencies": {}
 }

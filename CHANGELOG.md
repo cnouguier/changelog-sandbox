@@ -1,3 +1,9 @@
+#### 0.1.1 (2019-02-08)
+
+##### Bug Fixes
+
+*  fix3.js ([1b47f702](https://github.com/cnouguier/changelog-sandbox/commit/1b47f702864ad6d4fe9d7aa4209789400f9b6a26))
+
 ### 0.1.0 (2019-02-08)
 
 ##### Chores

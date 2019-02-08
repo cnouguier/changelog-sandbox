@@ -1,16 +1,16 @@
 {
   "name": "changelog-sandbox",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Changelog generator",
   "repository": {
     "url": "https://github.com/cnouguier/changelog-sandbox"
   },
   "scripts": {
     "changelog": "changelog -m",
-	"release:major": "changelog -M && git add CHANGELOG.md && git commit -m \"updated CHANGELOG.md\" && npm version --force major",
+    "release:major": "changelog -M && git add CHANGELOG.md && git commit -m \"updated CHANGELOG.md\" && npm version --force major",
     "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m \"Updated CHANGELOG.md\" && npm version --force minor",
     "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m \"Updated CHANGELOG.md\" && npm version --force patch",
-	"postversion": "git push origin && git push origin --tags"
+    "postversion": "git push origin && git push origin --tags"
   },
   "dependencies": {},
   "devDependencies": {

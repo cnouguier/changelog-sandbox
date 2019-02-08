@@ -6,9 +6,9 @@
     "url": "https://github.com/cnouguier/changelog-sandbox"
   },
   "scripts": {
-	"release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version --force major",
-    "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version --force minor",
-    "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version --force patch",
+	"release:major": "changelog -M && git add CHANGELOG.md && git commit -am 'updated CHANGELOG.md' && npm version --force major",
+    "release:minor": "changelog -m && git add CHANGELOG.md && git commit -am 'updated CHANGELOG.md' && npm version --force minor",
+    "release:patch": "changelog -p && git add CHANGELOG.md && git commit -am 'updated CHANGELOG.md' && npm version --force patch",
 	"postversion": "git push origin && git push origin --tags"
   },
   "dependencies": {},
